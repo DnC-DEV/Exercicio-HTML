@@ -1,0 +1,74 @@
+/* Seletores 
+    Tag HTML
+    # 
+*/
+.titulo-2 {
+    font-size: xx-large;
+    text-align: center;
+}
+.texto {
+    font-size: medium;
+    text-align: center;
+}
+.mb-5 {
+    font-size: medium;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#titulo {
+    background-color: hwb(43 25% 7%);
+    color: rgb(50, 75, 97);
+    border: 1px solid yellowgreen;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+.social {
+    width: 3%;
+}
+
+.texto:hover {
+    background-color:rgba(221, 228, 235, 0.146);
+}
+.photo {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+
+}
+
+@media (max-width: 800px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+.container>div {
+    width: 100%;
+}
+
+.nav-button {
+    margin: 10px;
+    border: 1px solid red;
+    padding: 20px;
+}
+
+.nav-button:hover {
+    background-color: red;
+}
+
+hr {
+    display: none;
+}
