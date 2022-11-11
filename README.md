@@ -1,1 +1,0 @@
-# Loja de venda de celulares
