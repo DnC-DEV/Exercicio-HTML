@@ -8,71 +8,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Contato</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
 </head>
 
 <body>
     <!-- Cabeçalho do site -->
     <header>
-        <nav>
-            <a class="logo">DnCELL</a>
+        <div>
+            <h1 id="logo">DnCELL</h1>
+        </div>
             <ul class="nav-button">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="contato.html">Contato</a></li>
                 <li><a href="preco.html">Preços</a></li>
             </ul>
-        </nav>
     </header>
     <!-- /Cabeçalho do site -->
 
     <!-- Corpo principal do site -->
     <main>
         <section>
-            <div>
-                <h1>Entre em contato para adquirir seu novo aparelho</h1>
+            <div class="texto-contato">
+                <h1 class="texto-contato1">Deixe seu contato</h1>
+                <h2 class="texto-contato2">Entraremo em contato</h2>
                 <form>
-                    <p>
-                        <label for="name">Nome</label>
-                        <input name="name" type="text" id="name">
-                    </p>
-                    <p>
-                        <label for="email">E-mail</label>
-                        <input name="email" type="email" id="email">
-                    </p>
-                    <p>
-                        <label for="menssage">Menssagem</label>
-                        <textarea name="menssage" id="menssage" cols="30" rows="3"></textarea>
-                    </p>
-                    <p>
-                        <button id="send">Enviar</button>
-                    </p>
+                        <input type="text" placeholder="Nome">
+                        <input type="email" placeholder="E-mail">
+                        <input type="submit" value="Enviar >">
                 </form>
-            </div>
-            <div>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14702.801083045317!2d-43.2618207!3d-22.88752805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997d18e80c4569%3A0xc62bd5a1dabb0de5!2sShopping%20Nova%20Am%C3%A9rica!5e0!3m2!1spt-BR!2sbr!4v1667932557893!5m2!1spt-BR!2sbr"
-                    width="600" height="200" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
     </main>
     <!-- /Corpo principal do site -->
 
     <!-- Rodapé do site -->
+    <!--
     <hr>
     <footer>
-        <div>
-            <a target="_blank" href="https://www.linkedin.com/in/danielcorrea5/">
+        <div class="rodape">
+            <a class="icones" target="_blank" href="https://www.linkedin.com/in/danielcorrea5/">
 
                 <img class="social" src="assets/images/linkedin.web.png" alt="logo linkedin">
             </a>
 
-            <a target="_blank" href="https://github.com/DnC-DEV">
+            <a class="icones" target="_blank" href="https://github.com/DnC-DEV">
 
                 <img class="social" src="assets/images/github.png" alt="logo github">
             </a>
         </div>
     </footer>
-    <!-- /Rodapé do site -->
+    <-- /Rodapé do site -->
 </body>
 
 </html>

@@ -7,54 +7,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="fonts.css">
 </head>
 
 <body>
   <!-- Cabeçalho do site -->
-  <header>
-    <nav>
-        <a class="logo">DnCELL</a>
-        <ul class="nav-button">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="contato.html">Contato</a></li>
-            <li><a href="preco.html">Preços</a></li>
-        </ul>
-    </nav>
-</header>
-  <!-- Cabeçalho do site -->
+    <header>
+        <div>
+            <h1 id="logo">DnCELL</h1>
+        </div>
+            <ul class="nav-button">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="preco.html">Preços</a></li>
+            </ul>
+    </header>
+    <!-- /Cabeçalho do site -->
 
   <!-- Tabela de Preço -->
-  <table border="1">
-    <caption>Tabela de Preço</caption>
+  <div class="tabela-proço">
+  <table border="0">
+    <caption></caption>
     <thead>
       <th>APARELHO</th>
       <th>PREÇO</th>
     </thead>
     <tbody>
-      <tr>
-        <td>iPhone 6</td>
-        <td>R$800,00</td>
-      </tr>
-      <tr>
-        <td>iPhone 6 Plus</td>
-        <td>R$1000,00</td>
-      </tr>
-      <tr>
-        <td>iPhone 7</td>
-        <td>R$1400,00</td>
-      </tr>
-      <tr>
-        <td>iPhone 7 Plus</td>
-        <td>R$1550,00</td>
-      </tr>
-      <tr>
-        <td>iPhone 8</td>
-        <td>R$1700,00</td>
-      </tr>
-      <tr>
-        <td>iPhone 8 Plus</td>
-        <td>R$1800,00</td>
-      </tr>
       <tr>
         <td>iPhone X</td>
         <td>R$1900,00</td>
@@ -119,28 +97,16 @@
         <td>iPhone 14</td>
         <td>R$5200,00</td>
       </tr>
-      <tr>
-        <td>iPhone 14 Pro</td>
-        <td>R$5500,00</td>
-      </tr>
-      <tr>
-        <td>iPhone 14 Pro Max</td>
-        <td>R$6000,00</td>
-      </tr>
     </tbody>
   </table>
+</div>
   <br>
+  <!--
   <fieldset>
     <legend>Compra</legend>
     <form>
       Selecione o aparelho desejado
       <select name="select">
-        <option> iPhone 6</option>
-        <option> iPhone 6 Plus</option>
-        <option> iPhone 7</option>
-        <option> iPhone 7 Plus</option>
-        <option> iPhone 8</option>
-        <option> iPhone 8 Plus</option>
         <option> iPhone X</option>
         <option> iPhone XR</option>
         <option> iPhone XS</option>
@@ -157,28 +123,27 @@
         <option> iPhone 13 Pro</option>
         <option> iPhone 13 Pro Max</option>
         <option> iPhone 14</option>
-        <option> iPhone 14 Pro</option>
-        <option> iPhone 14 Pro Max</option>
       </select>
     </form>
   </fieldset>
 
-  <!-- Rodapé do site -->
-  <hr>
-  <footer>
-    <div>
-      <a target="_blank" href="https://www.linkedin.com/in/danielcorrea5/">
+    <-- Rodapé do site -->
+    <!--
+    <hr>
+    <footer>
+        <div class="rodape">
+            <a class="icones" target="_blank" href="https://www.linkedin.com/in/danielcorrea5/">
 
-        <img class="social" src="assets/images/linkedin.web.png" alt="logo linkedin">
-      </a>
+                <img class="social" src="assets/images/linkedin.web.png" alt="logo linkedin">
+            </a>
 
-      <a target="_blank" href="https://github.com/DnC-DEV">
+            <a class="icones" target="_blank" href="https://github.com/DnC-DEV">
 
-        <img class="social" src="assets/images/github.png" alt="logo github">
-      </a>
-    </div>
-  </footer>
-  <!-- /Rodapé do site -->
+                <img class="social" src="assets/images/github.png" alt="logo github">
+            </a>
+        </div>
+    </footer>
+    <-- /Rodapé do site -->
 </body>
 
 </html>

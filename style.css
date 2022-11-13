@@ -25,6 +25,18 @@ li{
     border-radius: 25px;
 
 }
+.texto-contato{
+    margin-top: 30px;
+}
+
+.texto-contato1{
+    font-size: 30px;
+    color: #0f0;
+}
+
+.texto-contato2{
+    margin-top: 10px;
+}
 
 a{
     color: #fbfaf5;
@@ -71,6 +83,33 @@ img{
     width: 250px;
 }
 
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: #979ba3;
+    color: #0f0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
 
 .texto .botoes {
     margin-top: 60px;
@@ -147,4 +186,22 @@ img{
         outline: none;
         transition: 0.3s;
     }
+}
+
+.tabela-proço{
+    display: flex;
+    justify-content: center;
+}
+table{
+    width: 400px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    background: #979ba3;
+    color: #0f0;
+    border-radius: 20px;
+    margin-top: 8%;
+    height: 20px;
+    padding: 15px;
+    font-size: 20px;
 }
