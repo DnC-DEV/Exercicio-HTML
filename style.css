@@ -150,6 +150,20 @@ input{
     }
 }
 
+table{
+    width: 400px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    background: #979ba3;
+    color: #0f0;
+    border-radius: 20px;
+    margin-top: 8%;
+    height: 20px;
+    padding: 15px;
+    font-size: 20px;
+}
+
 
 @media screen and (max-width: 760px){
     
@@ -186,22 +200,17 @@ input{
         outline: none;
         transition: 0.3s;
     }
-}
-
-.tabela-proço{
-    display: flex;
-    justify-content: center;
-}
-table{
-    width: 400px;
-    margin: auto;
-    align-items: center;
-    text-align: center;
-    background: #979ba3;
-    color: #0f0;
-    border-radius: 20px;
-    margin-top: 8%;
-    height: 20px;
-    padding: 15px;
-    font-size: 20px;
+    table{
+        width: 250px;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+        background: #979ba3;
+        color: #0f0;
+        border-radius: 20px;
+        margin-top: 8%;
+        height: 20px;
+        padding: 15px;
+        font-size: 10px;
+    }
 }
