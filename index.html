@@ -13,30 +13,38 @@
 <body>
     <!-- Cabeçalho do site -->
     <header>
-        <div>
+        <nav>
             <h1 id="logo">DnCELL</h1>
+        <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
         </div>
-            <ul class="nav-button">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="contato.html">Contato</a></li>
-                <li><a href="preco.html">Preços</a></li>
-            </ul>
+        <ul class="nav-list">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="preco.html">Preços</a></li>
+        </ul>
+        </nav>
     </header>
     <!-- /Cabeçalho do site -->
 
     <!-- Corpo principal do site -->
     <main>
         <aside>
-        <section class="banner">
-            <div class="texto">
-                <h2 class="titulo"><span>Compre seu aparelho</span></h2>
-                <h2 class="titulo-2">certificado</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum dolores, ab tenetur id excepturi vero in quos animi deserunt totam, perspiciatis, ullam consequatur similique quod minus consequuntur maiores possimus Lorem ipsum dolor sit amet.</p>
-                <div class="botoes">
-                    <button class="overlay"><a href="contato.html">Comprar</a></button>
+            <section class="banner">
+                <div class="texto">
+                    <h2 class="titulo"><span>Compre seu aparelho</span></h2>
+                    <h2 class="titulo-2">certificado</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum dolores, ab tenetur id excepturi
+                        vero in quos animi deserunt totam, perspiciatis, ullam consequatur similique quod minus
+                        consequuntur maiores possimus Lorem ipsum dolor sit amet.</p>
+                    <p id="time"></p>
+                    <div class="botoes">
+                        <button class="overlay"><a onmousemove="handleMove()" href="contato.html">Comprar</a></button>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
         </aside>
 
         <article>
@@ -45,23 +53,7 @@
     </main>
     <!-- /Corpo principal do site -->
 
-    <!-- Rodapé do site -->
-    <!--
-    <hr>
-    <footer>
-        <div class="rodape">
-            <a class="icones" target="_blank" href="https://www.linkedin.com/in/danielcorrea5/">
-
-                <img class="social" src="assets/images/linkedin.web.png" alt="logo linkedin">
-            </a>
-
-            <a class="icones" target="_blank" href="https://github.com/DnC-DEV">
-
-                <img class="social" src="assets/images/github.png" alt="logo github">
-            </a>
-        </div>
-    </footer>
-    <-- /Rodapé do site -->
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
